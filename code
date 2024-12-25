@@ -1,0 +1,27 @@
+
+
+
+first = input("Choose a mathematical operator (+,-,/,*) :")
+
+
+
+if first == "+":
+   a = float(input("Choose the first number:"))
+   b = float(input("Choose the second number:"))
+   sum = a + b
+   print(sum)
+elif first == "-":
+   a1 = float(input("Choose the first number:"))
+   b1 = float(input("Choose the second number:"))
+   difference = a1 - b1
+   print(difference)
+elif first == "*":
+   a2 = float(input("Choose the first number:"))
+   b2 = float(input("Choose the second number:"))
+   product = a2 * b2
+   print(product)
+elif first == "/":
+   a3 = float(input("Choose the first number:"))
+   b3 = float(input("Choose the second number:"))
+   quotient = a3 / b3
+   print(quotient)
